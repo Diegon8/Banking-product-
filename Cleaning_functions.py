@@ -10,7 +10,7 @@ def roundamountmonth():
 def roundscore():
     return lambda a: round(a/100, 2)
 
-def getdigit():
-    return re.findall(r'\d+')
+def toint():
+    return lambda a: a.astype('int')
 
 
