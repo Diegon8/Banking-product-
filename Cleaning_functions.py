@@ -1,6 +1,3 @@
-def lastc(x):
-    return x[-12:]
-
 def roundamount():
     return lambda a: round(a/1000000, 1)*100000
 
